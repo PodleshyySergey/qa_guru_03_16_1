@@ -18,9 +18,9 @@ public class ReqresInTests {
 
     @Test
     public void createUserPost() {
-        String data = "{\n" +
+        String data = "{" +
                 "    \"name\": \"morpheus\",\n" +
-                "    \"job\": \"leader\"\n" +
+                "    \"job\": \"leader\"" +
                 "}";
         given()
                 .contentType(ContentType.JSON)
